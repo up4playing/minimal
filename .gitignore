@@ -1,0 +1,5 @@
+.livetime/
+*.eventstream
+.DS_Store
+assets/*.js
+assets/*.html

@@ -1,0 +1,64 @@
+{
+	"language": 1,
+	"appType": 0,
+	"appIntergrationMode": 1,
+	"autoImportMedia": true,
+	"optionalBraces": true,
+	"alwaysUpdateHtml": false,
+	"liveUpdateInterval": 0,
+	"evaluateTimelineMode": 0,
+	"libs": [],
+	"sources": [
+		"src/",
+		"lib/core/",
+		"lib/core/2D/",
+		"lib/core/play/"
+	],
+	"compilerOptions": {},
+	"traceActive": false,
+	"traceTimeBudget": 50,
+	"useExternalWindow": false,
+	"autoFormat": false,
+	"liveCompilation": true,
+	"runAllTests": false,
+	"aiModel": 1,
+	"processBuild": 1,
+	"servers": [
+		{
+			"name": "Alphahosting",
+			"host": "89.22.121.145",
+			"username": "heiko",
+			"privateKey": "/Users/Heiko/.ssh/id_rsa",
+			"targetPath": "/srv/play/minimal/"
+		},
+		{
+			"name": "Alwyzon",
+			"host": "94.177.8.204",
+			"username": "heiko",
+			"privateKey": "/Users/Heiko/.ssh/id_rsa",
+			"targetPath": "/srv/play/minimal/"
+		},
+		{
+			"name": "Amazon",
+			"host": "18.198.112.114",
+			"username": "ec2-user",
+			"privateKey": "/Users/Heiko/.ssh/id_rsa",
+			"targetPath": "/srv/play/minimal/assets/"
+		}
+	],
+	"serverIndex": 0,
+	"properties": {
+		"basePath": "",
+		"title": "Are you up for Minimal?",
+		"description": "",
+		"image": "preview-v1.png",
+		"favIcon": "favicon-v1.png"
+	},
+	"startupConfig": {
+		"simulateConnection": true,
+		"userCount": 4,
+		"showSafeArea": true
+	},
+	"assistant": true,
+	"fontSize": 12
+}
