@@ -22,7 +22,7 @@
 	"liveCompilation": true,
 	"runAllTests": false,
 	"aiModel": 1,
-	"processBuild": 1,
+	"processBuild": 0,
 	"servers": [
 		{
 			"name": "Alphahosting",
@@ -57,8 +57,13 @@
 	"startupConfig": {
 		"simulateConnection": true,
 		"userCount": 4,
-		"showSafeArea": true
+		"showSafeArea": true,
+		"referenceSize": {
+			"x": 1920,
+			"y": 1080
+		}
 	},
 	"assistant": true,
-	"fontSize": 12
+	"fontSize": 12,
+	"keepAspectRatio": true
 }
